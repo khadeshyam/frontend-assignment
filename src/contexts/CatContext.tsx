@@ -1,5 +1,5 @@
 // CatContext.tsx
-import React, { useState, Dispatch, SetStateAction } from 'react';
+import React, { useState, Dispatch, SetStateAction } from "react";
 interface Cat {
 	id: string;
 	url: string;

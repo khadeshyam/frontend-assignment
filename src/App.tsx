@@ -1,7 +1,7 @@
 // App.tsx
-import { Box, VStack, Grid, Button } from '@chakra-ui/react';
-import CatCard from './components/CatCard';
-import useFetchCat from './hooks/useFetchCat';
+import { Box, VStack, Grid, Button } from "@chakra-ui/react";
+import CatCard from "./components/CatCard";
+import useFetchCat from "./hooks/useFetchCat";
 
 function App() {
   const { cat, fetchCat, isLoading } = useFetchCat();

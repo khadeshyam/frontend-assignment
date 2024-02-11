@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Image, Skeleton, Text } from '@chakra-ui/react';
+import React from "react";
+import { Box, Image, Skeleton, Text } from "@chakra-ui/react";
 
 interface Cat {
 	id: string;

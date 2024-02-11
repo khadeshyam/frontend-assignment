@@ -1,7 +1,7 @@
 // useFetchCat.ts
-import { useContext, useEffect } from 'react';
-import { CatContext } from '../contexts/CatContext';
-import { fetchCat as fetchCatFromApi } from '../services/api';
+import { useContext, useEffect } from "react";
+import { CatContext } from "../contexts/CatContext";
+import { fetchCat as fetchCatFromApi } from "../services/api";
 
 const useFetchCat = () => {
 	const { cat, setCat, isLoading, setIsLoading } = useContext(CatContext);
