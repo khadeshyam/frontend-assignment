@@ -1,39 +1,39 @@
-# Front-End Assignment
+# Cat Display App - React + TypeScript + Vite
 
-The task is to create and deploy a simple Next.js - React app.
+This project is a simple web application that displays random cat data. It is built using React, TypeScript, and Vite.
 
-## Task
-1. Fork this repository.
-2. Extend the React app using the starter guide [here](https://react.dev/learn/start-a-new-react-project).
-3. Use any modern UI framework and have a homepage (root url) i.e. `/` path to display random cat data.
-4. Use the [The Cat API](http://thecatapi.com) to get information and images of cats.
 
-### Brownie Points
-Deploy the application on Vercel or any other similar platform. Feel free to choose any platform for hosting.
+## Description of Main Files and Directories
 
-### The Cat API
-#### Get a random cat ID & Image
+- `App.tsx`: This is the main component of the application.
+- `components/CatCard.tsx`: This component is responsible for displaying the individual cat data.
+- `contexts/CatContext.tsx`: This context provides the cat data to the components that need it.
+- `hooks/useFetchCat.ts`: This custom hook is used to fetch the cat data from the API.
+- `main.tsx`: This is the entry point of the application.
+- `services/api.ts`: This file contains the function to call the API.
 
-https://api.thecatapi.com/v1/images/search?has_breeds=1
+## How to Run the Project
 
-#### Get complete details of the cat with ID
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies with `npm install`.
+4. Run the project with `npm run dev`.
 
-Using the above API you'll get ID which when passed to this API will give you full details.
+## How to Build the Project
 
-`https://api.thecatapi.com/v1/images/<ID>`
+1. Navigate to the project directory.
+2. Build the project with `npm run build`.
 
-### Grading
+The built files will be located in the `dist` directory.
 
-Grading will be on the basis of the following key points:
+## ESLint Configuration
 
-- Structure and file organization
-- Quality of the page
-- Code Quality
-- Coding Practices & Standards followed
-- Anything done to surprise us!
+The project uses ESLint for linting. The configuration can be found in the `.eslintrc.js` file. If you want to expand the ESLint configuration, please refer to the original README.md file.
 
-### Disclaimer
-- We will not be able to provide any monetary support to host the application. You can choose free hosting platforms too.
+## Contributing
 
-### Contact
-For any assistance, please create a GitHub issue. We will resolve your query there.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[AGPL](https://choosealicense.com/licenses/agpl-3.0/)
